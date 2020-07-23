@@ -13,6 +13,8 @@
 		72C15AB524C955F300340467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C15AB424C955F300340467 /* Assets.xcassets */; };
 		72C15AB824C955F300340467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C15AB724C955F300340467 /* Preview Assets.xcassets */; };
 		72C15ABB24C955F300340467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C15AB924C955F300340467 /* LaunchScreen.storyboard */; };
+		72C15AC524C95C9400340467 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C15AC424C95C9400340467 /* ColorCircle.swift */; };
+		72C15AC724C9754200340467 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C15AC624C9754200340467 /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		72C15AB724C955F300340467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72C15ABA24C955F300340467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C15ABC24C955F300340467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C15AC424C95C9400340467 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		72C15AC624C9754200340467 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				72C15AAE24C955EB00340467 /* AppDelegate.swift */,
 				72C15AB024C955EB00340467 /* SceneDelegate.swift */,
 				72C15AB224C955EB00340467 /* ContentView.swift */,
+				72C15AC624C9754200340467 /* ChangeColorButton.swift */,
+				72C15AC424C95C9400340467 /* ColorCircle.swift */,
 				72C15AB424C955F300340467 /* Assets.xcassets */,
 				72C15AB924C955F300340467 /* LaunchScreen.storyboard */,
 				72C15ABC24C955F300340467 /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C15AAF24C955EB00340467 /* AppDelegate.swift in Sources */,
+				72C15AC724C9754200340467 /* ChangeColorButton.swift in Sources */,
+				72C15AC524C95C9400340467 /* ColorCircle.swift in Sources */,
 				72C15AB124C955EB00340467 /* SceneDelegate.swift in Sources */,
 				72C15AB324C955EB00340467 /* ContentView.swift in Sources */,
 			);
